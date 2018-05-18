@@ -13,7 +13,7 @@ class Anagram
     holder = []
     list.each do |check|
       # binding.pry
-      if @word == check || check.reverse == @word
+      if @word == check
         holder << check
       else
         holder = []
