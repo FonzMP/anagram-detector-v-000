@@ -13,7 +13,7 @@ class Anagram
     holder = []
     list.collect do |check|
       if @word == check
-        check
+        holder << check
       end
     end
   end
