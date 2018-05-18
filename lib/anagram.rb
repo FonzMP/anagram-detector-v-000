@@ -14,8 +14,7 @@ class Anagram
     list.collect do |check|
       if @word == check
         check
-      else
-        holder = []
+
       end
     end
   end
