@@ -11,6 +11,8 @@ class Anagram
   def match(list)
     list.each do |check|
       if check == @word
+        puts check
+      end
     end
   end
 
