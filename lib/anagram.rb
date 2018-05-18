@@ -12,6 +12,7 @@ class Anagram
   def match(list)
     holder = []
     list.each do |check|
+      binding.pry
       if @word == check
         holder << check
       else
