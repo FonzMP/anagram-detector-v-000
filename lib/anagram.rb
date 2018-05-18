@@ -9,8 +9,9 @@ class Anagram
   end
 
   def match(list)
+    holder = []
     list.each do |check|
-      puts word
+      if @word == check
     end
   end
 
