@@ -15,7 +15,7 @@ class Anagram
       if @word == check
         holder << check
       elsif @word.reverse == check
-        holder << check.reverse
+        holder << @word
       else
         holder = []
       end
