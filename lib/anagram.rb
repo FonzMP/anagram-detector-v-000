@@ -9,7 +9,9 @@ class Anagram
   end
 
   def match(list)
-    puts list
+    list.each do |check|
+      puts check
+    end
   end
 
 end
