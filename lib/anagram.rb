@@ -11,7 +11,7 @@ class Anagram
   def match(list)
     holder = []
     list.each do |check|
-      if @word == check
+      if @word == check || @word == check.reverse
         holder << check
       else
         holder = []
