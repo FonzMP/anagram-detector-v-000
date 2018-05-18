@@ -10,9 +10,7 @@ class Anagram
 
   def match(list)
     list.each do |check|
-      if @word == check
-        puts @word
-      end
+      puts word
     end
   end
 
