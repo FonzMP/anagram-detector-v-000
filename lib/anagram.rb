@@ -16,6 +16,7 @@ class Anagram
         holder << check
       end
     end
+    holder
   end
 
 end
