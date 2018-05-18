@@ -9,7 +9,7 @@ class Anagram
   end
 
   def match(list)
-
+    
   end
 
 end
