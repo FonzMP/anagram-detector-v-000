@@ -9,7 +9,6 @@ class Anagram
   end
 
   def match(list)
-    list
     puts list_array
   end
 
