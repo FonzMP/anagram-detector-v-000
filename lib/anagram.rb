@@ -14,7 +14,6 @@ class Anagram
     list.collect do |check|
       if @word == check
         check
-
       end
     end
   end
