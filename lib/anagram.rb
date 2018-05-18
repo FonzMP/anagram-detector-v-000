@@ -9,7 +9,7 @@ class Anagram
   end
 
   def match(list)
-    list_array = list.split(" ")
+    list
     puts list_array
   end
 
