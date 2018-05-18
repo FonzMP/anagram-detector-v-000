@@ -17,6 +17,7 @@ class Anagram
         holder = []
       end
     end
+    holder
   end
 
 end
