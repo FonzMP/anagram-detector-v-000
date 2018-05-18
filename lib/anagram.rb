@@ -10,8 +10,9 @@ class Anagram
 
   def match(list)
     list_array = list.split(" ")
+    puts list_arry
   end
-    
+
   end
 
 end
