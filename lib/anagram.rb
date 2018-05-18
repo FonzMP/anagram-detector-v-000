@@ -14,6 +14,8 @@ class Anagram
     list.each do |check|
       if @word == check
         holder << check
+      elsif @word == check.reverse
+        holder << check.reverse
       else
         holder = []
       end
