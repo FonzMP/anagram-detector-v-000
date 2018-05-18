@@ -12,7 +12,7 @@ class Anagram
   def match(list)
     holder = []
     list.each do |check|
-      binding.pry
+      # binding.pry
       if @word == check || @word.reverse == check
         holder << check
       else
