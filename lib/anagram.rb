@@ -12,6 +12,10 @@ class Anagram
     holder = []
     list.each do |check|
       if @word == check
+        holder << check
+      else
+        holder = []
+      end
     end
   end
 
