@@ -13,6 +13,4 @@ class Anagram
     puts list_array
   end
 
-  end
-
 end
